@@ -56,24 +56,44 @@
             <tr>
               <th>Firstname</th>
               <th>Lastname</th>
+              <th>Display Name</th>
+              <th>Gender</th>
+              <th>DOB</th>
+              <th>Address</th>
+              <th>City</th>
+              <th>State</th>
               <th>Email</th>
+
+
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>john@example.com</td>
-            </tr>
-            <tr>
-              <td>Mary</td>
-              <td>Moe</td>
-              <td>mary@example.com</td>
+
+
+
+            <tr *ngFor="let item of arr">
+              <td>{{item.Fname}}</td>
+              <td>{{item.Lname}}</td>
+              <td>frfretgre</td>
+              <td>ffrfr</td>
+              <td>vfvg</td>
+              <td>hyuy</td>
+              <td>7u67u</td>
+              <td>i8i8i</td>
+              <td>grh</td>
+              <td><a href="#">
+                  <span class="glyphicon glyphicon-edit"></span>
+                </a></td>
+              <td><a href="#">
+                  <span class="glyphicon glyphicon-trash"></span>
+                </a></td>
+
+
             </tr>
             <tr>
               <td>July</td>
               <td>Dooley</td>
-              <td>july@example.com</td>
+              <td>mery</td>
             </tr>
           </tbody>
         </table>
